@@ -1,5 +1,5 @@
-vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.g.mapleader = " "
 
 vim.api.nvim_set_keymap(
   't',
@@ -16,3 +16,5 @@ vim.api.nvim_set_keymap(
 )
 
 vim.api.nvim_set_keymap('t', '<ESC>', '<C-\\><C-n>', { noremap = true })
+
+
